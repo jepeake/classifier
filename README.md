@@ -1,21 +1,17 @@
-# DoC_ML_CW1
+# _Decision Tree Classifier_
 
-### Running Code on Lab Machines:
+_This Decision Tree Classifier was designed to classify which room (1-4) an observer was in, given a set of WiFi Signals from different routers placed around the rooms._
 
-- Download the source code onto the Lab Machine.
-- Extract the .zip file.
-- In the Terminal, activate the virtual environment:
+_This classifier provided 97% accuracy on a Clean Dataset & 80% accuracy on a Noisy Dataset, see report for full evaluation metrics._
 
-   $ source /vol/lab/intro2ml/venv/bin/activate
-- In the virtual environent, install the required packages:
-  
-  $ python3 -c "import numpy as np; import torch; print(np); print(torch)"
+_This specification was given as part of the Introduction to Machine Learning course, organised by the Department of Computing at Imperial College London._
 
-- Navigate to the source code file directory in the terminal.
-- Run the command: python3 decisionTree.py - to run the Python script.
-- Once run, code will display the confusion matrices, the evaluation metrics for both datasets and plot the decision tree for the clean dataset.
+### _Contributors_
 
-Repository contains:
-- Clean & Noisy datasets in wifi_db
-- Script decisionTree.py to build decision tree & run evaluation
+_Jacob Peake_
 
+_Ryan Meierhofer_
+
+_Donavon Clay_
+
+_Yash Belur_
